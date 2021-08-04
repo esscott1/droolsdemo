@@ -5,5 +5,7 @@ rule "Hello World"
         m : Message( status == Message.HELLO, myMessage : message)
     then
         System.out.println( "hello" );
-    end
+        m.setMessage("Hello Message");
+        update(m)
+    end;
 
