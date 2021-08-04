@@ -10,4 +10,5 @@ rule "tag grant"
 	then
 		granttag.setCategory( "Clinical Bucket" );
 		granttag.setSubCategory( "Single Site Clinical Trials" );
+		retract( granttag );
 end
