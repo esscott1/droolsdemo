@@ -6,12 +6,33 @@ package com.myspace.helloworld;
 
 public class tag implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public tag() {
-    }
+	private java.lang.String category;
+	private java.lang.String subCategory;
 
+	public tag() {
+	}
 
+	public java.lang.String getCategory() {
+		return this.category;
+	}
 
+	public void setCategory(java.lang.String category) {
+		this.category = category;
+	}
+
+	public java.lang.String getSubCategory() {
+		return this.subCategory;
+	}
+
+	public void setSubCategory(java.lang.String subCategory) {
+		this.subCategory = subCategory;
+	}
+
+	public tag(java.lang.String category, java.lang.String subCategory) {
+		this.category = category;
+		this.subCategory = subCategory;
+	}
 
 }
