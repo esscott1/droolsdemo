@@ -219,7 +219,7 @@
               <name>1|1</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">PAR16-405</rawValue>
+            <rawValue class="string">PAR16-4051</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -263,7 +263,7 @@
               <name>1628105754113</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">null</rawValue>
+            <rawValue class="string">need a value to instanciate</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
