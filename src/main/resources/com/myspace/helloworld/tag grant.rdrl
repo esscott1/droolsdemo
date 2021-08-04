@@ -5,7 +5,9 @@ import java.lang.Number;
 rule "tag grant"
 	dialect "mvel"
 	when
-		tag( )
+		granttag : tag( )
 		Grant( initiative == "PAR16-405" )
 	then
+		granttag.setCategory( "Clinical Bucket" );
+		granttag.setSubCategory( "Single Site Clinical Trials" );
 end
