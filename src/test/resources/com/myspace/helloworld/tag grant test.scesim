@@ -53,7 +53,27 @@
           <factAlias>Grant</factAlias>
           <expressionAlias>initiative</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>344.3333333333333</columnWidth>
+          <columnWidth>258.25</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>tag</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1628105754113</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>1|2</name>
+            <className>com.myspace.helloworld.tag</className>
+          </factIdentifier>
+          <className>com.myspace.helloworld.tag</className>
+          <factAlias>tag</factAlias>
+          <expressionAlias>expression &lt;/&gt;</expressionAlias>
+          <factMappingValueType>EXPRESSION</factMappingValueType>
+          <columnWidth>258.25</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -76,7 +96,7 @@
           <factAlias>tag</factAlias>
           <expressionAlias>category</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>344.3333333333333</columnWidth>
+          <columnWidth>258.25</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -99,7 +119,7 @@
           <factAlias>tag</factAlias>
           <expressionAlias>subCategory</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>344.3333333333333</columnWidth>
+          <columnWidth>258.25</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -161,6 +181,16 @@
             </expressionIdentifier>
             <rawValue class="string">Single Site Clinical Trials</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>1|2</name>
+              <className>com.myspace.helloworld.tag</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1628105754113</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -218,6 +248,16 @@
               <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>1|2</name>
+              <className>com.myspace.helloworld.tag</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1628105754113</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
     </scesimData>
@@ -226,23 +266,19 @@
     <scesimModelDescriptor>
       <factMappings>
         <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>tag</step>
-            </ExpressionElement>
-          </expressionElements>
+          <expressionElements/>
           <expressionIdentifier>
-            <name>1|1</name>
+            <name>1628105743620</name>
             <type>GIVEN</type>
           </expressionIdentifier>
           <factIdentifier>
-            <name>1|1</name>
-            <className>com.myspace.helloworld.tag</className>
+            <name>Empty</name>
+            <className>java.lang.Void</className>
           </factIdentifier>
-          <className>com.myspace.helloworld.tag</className>
-          <factAlias>tag</factAlias>
-          <expressionAlias>expression &lt;/&gt;</expressionAlias>
-          <factMappingValueType>EXPRESSION</factMappingValueType>
+          <className>java.lang.Void</className>
+          <factAlias>INSTANCE 1</factAlias>
+          <expressionAlias>PROPERTY 1</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>1403.0</columnWidth>
         </FactMapping>
       </factMappings>
@@ -252,11 +288,11 @@
         <factMappingValues>
           <FactMappingValue>
             <factIdentifier>
-              <name>1|1</name>
-              <className>com.myspace.helloworld.tag</className>
+              <name>Empty</name>
+              <className>java.lang.Void</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|1</name>
+              <name>1628105743620</name>
               <type>GIVEN</type>
             </expressionIdentifier>
           </FactMappingValue>
