@@ -8,7 +8,7 @@ rule "tag grant"
 		granttag : tag( )
 		Grant( initiative == "\"PAR16-405\"" )
 	then
-		granttag.setCategory( "\"Clinical Bucket\"" );
-		granttag.setSubCategory( "\"Single Site Clinical Trials\"" );
+		granttag.setCategory( "Clinical Bucket" );
+		granttag.setSubCategory( "Single Site Clinical Trials" );
 		retract( granttag );
 end
