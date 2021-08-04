@@ -2,7 +2,7 @@ package com.myspace.helloworld;
 
 rule "Hello World"
     when 
-        m : Message( status == Message.HELLO, myMessage : message)
+        m : Message( status == 0, myMessage : message)
     then
         System.out.println( "hello" );
         m.setMessage("Hello Message");
