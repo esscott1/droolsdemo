@@ -1,2 +1,9 @@
 package com.myspace.helloworld;
 
+rule "Hello World"
+    when 
+        m : Message( status == Message.HELLO, myMessage : message)
+    then
+        System.out.println( myMessage );
+    end
+
