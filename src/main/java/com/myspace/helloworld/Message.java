@@ -6,12 +6,23 @@ package com.myspace.helloworld;
 
 public class Message implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Message() {
-    }
+	private java.lang.String message;
 
+	public Message() {
+	}
 
+	public java.lang.String getMessage() {
+		return this.message;
+	}
 
+	public void setMessage(java.lang.String message) {
+		this.message = message;
+	}
+
+	public Message(java.lang.String message) {
+		this.message = message;
+	}
 
 }
