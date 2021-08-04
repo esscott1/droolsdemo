@@ -193,6 +193,7 @@
               <name>1628105523206</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">Single Site Clinical Trials</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
