@@ -53,7 +53,7 @@
           <factAlias>Grant</factAlias>
           <expressionAlias>initiative</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>258.25</columnWidth>
+          <columnWidth>344.3333333333333</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -76,7 +76,7 @@
           <factAlias>tag</factAlias>
           <expressionAlias>category</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>258.25</columnWidth>
+          <columnWidth>344.3333333333333</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -99,30 +99,7 @@
           <factAlias>tag</factAlias>
           <expressionAlias>category</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>258.25</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>tag</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>subCategory</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1628105523206</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>1|2</name>
-            <className>com.myspace.helloworld.tag</className>
-          </factIdentifier>
-          <className>java.lang.String</className>
-          <factAlias>tag</factAlias>
-          <expressionAlias>subCategory</expressionAlias>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>258.24999999999994</columnWidth>
+          <columnWidth>344.3333333333333</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -184,17 +161,6 @@
             </expressionIdentifier>
             <rawValue class="string">Clinical Bucket2</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|2</name>
-              <className>com.myspace.helloworld.tag</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1628105523206</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">Single Site Clinical Trials</rawValue>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -250,16 +216,6 @@
             <expressionIdentifier>
               <name>1628104549003</name>
               <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>1|2</name>
-              <className>com.myspace.helloworld.tag</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1628105523206</name>
-              <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
