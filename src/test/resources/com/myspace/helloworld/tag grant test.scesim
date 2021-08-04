@@ -114,7 +114,7 @@
               <name>1|1</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;PAR16-405&quot;</rawValue>
+            <rawValue class="string">PAR16-405</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
