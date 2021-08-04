@@ -114,7 +114,7 @@
               <name>1|1</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">HELLO</rawValue>
+            <rawValue class="string">0</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -125,6 +125,7 @@
               <name>1|2</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">Hello Message</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
