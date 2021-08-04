@@ -6,7 +6,7 @@ rule "tag grant"
 	dialect "mvel"
 	when
 		granttag : tag( )
-		Grant( initiative == "PAR16-405" )
+		Grant( initiative == "\"PAR16-405\"" )
 	then
 		granttag.setCategory( "Clinical Bucket" );
 		granttag.setSubCategory( "Single Site Clinical Trials" );
