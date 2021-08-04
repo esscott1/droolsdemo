@@ -6,7 +6,7 @@ package com.myspace.helloworld;
 
 public static class Message implements java.io.Serializable {
 
-	static final long serialVersionUID = 1L;
+	public static final long serialVersionUID = 1L;
 
     private int status;
     
@@ -22,10 +22,7 @@ public static class Message implements java.io.Serializable {
 		this.message = message;
 	}
 
-	public Message(java.lang.String message) {
-		this.message = message;
-	}
-	
+
 	public int getStatus(){
 	    return this.status;
 	}
