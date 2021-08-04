@@ -159,7 +159,6 @@
               <name>1628104549003</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">Clinical Bucket2</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
