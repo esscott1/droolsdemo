@@ -1,0 +1,9 @@
+package com.myspace.helloworld;
+
+import java.lang.Number;
+
+rule "tag grant"
+	dialect "mvel"
+	when
+	then
+end
