@@ -208,7 +208,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">null</rawValue>
+            <rawValue class="string">should fail</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -230,6 +230,7 @@
               <name>1|2</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">wrong</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -251,6 +252,7 @@
               <name>1628105673744</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">info</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
