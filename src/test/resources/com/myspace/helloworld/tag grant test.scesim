@@ -14,8 +14,8 @@
           </factIdentifier>
           <className>java.lang.Integer</className>
           <factAlias>#</factAlias>
+          <columnWidth>70</columnWidth>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>70.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements/>
@@ -29,8 +29,8 @@
           </factIdentifier>
           <className>java.lang.String</className>
           <factAlias>Scenario description</factAlias>
+          <columnWidth>300</columnWidth>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>300.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -52,8 +52,8 @@
           <className>java.lang.String</className>
           <factAlias>Grant</factAlias>
           <expressionAlias>initiative</expressionAlias>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>258.25</columnWidth>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -75,8 +75,8 @@
           <className>java.lang.String</className>
           <factAlias>tag</factAlias>
           <expressionAlias>category</expressionAlias>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>258.25</columnWidth>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -98,8 +98,8 @@
           <className>java.lang.String</className>
           <factAlias>tag</factAlias>
           <expressionAlias>category</expressionAlias>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>258.25</columnWidth>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -121,8 +121,8 @@
           <className>java.lang.String</className>
           <factAlias>tag</factAlias>
           <expressionAlias>subCategory</expressionAlias>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>258.25</columnWidth>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -252,7 +252,7 @@
               <name>1628105673744</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">a</rawValue>
+            <rawValue class="string">Single Site Clinical Trials</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -285,8 +285,8 @@
           <className>java.lang.Void</className>
           <factAlias>INSTANCE 1</factAlias>
           <expressionAlias>PROPERTY 1</expressionAlias>
+          <columnWidth>1403</columnWidth>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>1403.0</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
