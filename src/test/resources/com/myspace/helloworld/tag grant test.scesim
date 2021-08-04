@@ -60,6 +60,9 @@
             <ExpressionElement>
               <step>tag</step>
             </ExpressionElement>
+            <ExpressionElement>
+              <step>category</step>
+            </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
             <name>1628105754113</name>
@@ -69,10 +72,10 @@
             <name>1|2</name>
             <className>com.myspace.helloworld.tag</className>
           </factIdentifier>
-          <className>com.myspace.helloworld.tag</className>
+          <className>java.lang.String</className>
           <factAlias>tag</factAlias>
-          <expressionAlias>expression &lt;/&gt;</expressionAlias>
-          <factMappingValueType>EXPRESSION</factMappingValueType>
+          <expressionAlias>category</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>258.25</columnWidth>
         </FactMapping>
         <FactMapping>
