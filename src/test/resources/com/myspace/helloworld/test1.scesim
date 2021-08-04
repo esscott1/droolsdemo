@@ -53,7 +53,7 @@
           <factAlias>Message</factAlias>
           <expressionAlias>status</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>394.5</columnWidth>
+          <columnWidth>504.5</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -76,7 +76,7 @@
           <factAlias>Message</factAlias>
           <expressionAlias>message</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>394.5</columnWidth>
+          <columnWidth>504.5</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -125,7 +125,6 @@
               <name>1|2</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">Hello Message</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
