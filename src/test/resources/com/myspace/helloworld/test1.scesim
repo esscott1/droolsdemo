@@ -38,7 +38,7 @@
               <step>Message</step>
             </ExpressionElement>
             <ExpressionElement>
-              <step>status</step>
+              <step>message</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
@@ -49,9 +49,9 @@
             <name>1|1</name>
             <className>com.myspace.helloworld.Message</className>
           </factIdentifier>
-          <className>int</className>
+          <className>java.lang.String</className>
           <factAlias>Message</factAlias>
-          <expressionAlias>status</expressionAlias>
+          <expressionAlias>message</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>504.5</columnWidth>
         </FactMapping>
@@ -61,7 +61,7 @@
               <step>Message</step>
             </ExpressionElement>
             <ExpressionElement>
-              <step>status</step>
+              <step>message</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
@@ -72,9 +72,9 @@
             <name>1|1</name>
             <className>com.myspace.helloworld.Message</className>
           </factIdentifier>
-          <className>int</className>
+          <className>java.lang.String</className>
           <factAlias>Message</factAlias>
-          <expressionAlias>status</expressionAlias>
+          <expressionAlias>message</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>504.5</columnWidth>
         </FactMapping>
@@ -114,7 +114,7 @@
               <name>1|1</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">0</rawValue>
+            <rawValue class="string">Hello</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -125,7 +125,7 @@
               <name>1|2</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">0</rawValue>
+            <rawValue class="string">Hello</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
