@@ -5,5 +5,7 @@ import java.lang.Number;
 rule "tag grant"
 	dialect "mvel"
 	when
+		tag( )
+		Grant( initiative == "PAR16-405" )
 	then
 end
