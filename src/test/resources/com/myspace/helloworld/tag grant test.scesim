@@ -261,6 +261,7 @@
               <name>1628105754113</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">somthing</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
