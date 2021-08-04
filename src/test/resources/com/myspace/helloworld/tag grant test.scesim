@@ -230,6 +230,7 @@
               <name>1|2</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">Clinical Bucket</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -251,6 +252,7 @@
               <name>1628105673744</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">a</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -261,7 +263,7 @@
               <name>1628105754113</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">something</rawValue>
+            <rawValue class="string">null</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
