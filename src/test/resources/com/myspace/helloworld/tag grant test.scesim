@@ -53,12 +53,15 @@
           <factAlias>Grant</factAlias>
           <expressionAlias>initiative</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>241.0</columnWidth>
+          <columnWidth>240.99999999999994</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
               <step>tag</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>category</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
@@ -69,11 +72,11 @@
             <name>1|2</name>
             <className>com.myspace.helloworld.tag</className>
           </factIdentifier>
-          <className>com.myspace.helloworld.tag</className>
+          <className>java.lang.String</className>
           <factAlias>tag</factAlias>
-          <expressionAlias>expression &lt;/&gt;</expressionAlias>
-          <factMappingValueType>EXPRESSION</factMappingValueType>
-          <columnWidth>241.0</columnWidth>
+          <expressionAlias>category</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>240.99999999999994</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -96,7 +99,7 @@
           <factAlias>tag</factAlias>
           <expressionAlias>category</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>241.0</columnWidth>
+          <columnWidth>240.99999999999994</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -156,6 +159,7 @@
               <name>1628104549003</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">Clinical Bucket</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
