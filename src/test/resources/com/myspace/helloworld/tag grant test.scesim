@@ -53,7 +53,7 @@
           <factAlias>Grant</factAlias>
           <expressionAlias>initiative</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>361.5</columnWidth>
+          <columnWidth>353.5</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -76,7 +76,7 @@
           <factAlias>tag</factAlias>
           <expressionAlias>category</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>361.5</columnWidth>
+          <columnWidth>353.5</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
