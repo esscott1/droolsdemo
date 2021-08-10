@@ -8,6 +8,34 @@
   <packaging>kjar</packaging>
   <name>helloWorld</name>
   <description></description>
+  <repositories>
+    <repository>
+      <id>jboss-enterprise-repository-group</id>
+      <name>Red Hat JBoss Enterprise Maven Repository</name>
+      <url>https://maven.repository.redhat.com/ga/</url>
+      <layout>default</layout>
+      <releases>
+        <updatePolicy>never</updatePolicy>
+      </releases>
+      <snapshots>
+        <updatePolicy>daily</updatePolicy>
+      </snapshots>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>jboss-enterprise-repository-group</id>
+      <name>Red Hat JBoss Enterprise Maven Repository</name>
+      <url>https://maven.repository.redhat.com/ga/</url>
+      <layout>default</layout>
+      <releases>
+        <updatePolicy>never</updatePolicy>
+      </releases>
+      <snapshots>
+        <updatePolicy>daily</updatePolicy>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
   <dependencies>
     <dependency>
       <groupId>org.kie</groupId>
