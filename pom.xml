@@ -18,7 +18,7 @@
         <updatePolicy>never</updatePolicy>
       </releases>
       <snapshots>
-        <updatePolicy>daily</updatePolicy>
+        <updatePolicy>always</updatePolicy>
       </snapshots>
     </repository>
   </repositories>
@@ -32,7 +32,7 @@
         <updatePolicy>never</updatePolicy>
       </releases>
       <snapshots>
-        <updatePolicy>daily</updatePolicy>
+        <updatePolicy>always</updatePolicy>
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
