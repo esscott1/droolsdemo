@@ -12,7 +12,7 @@
     <repository>
       <id>jboss-enterprise-repository-group</id>
       <name>Red Hat JBoss Enterprise Maven Repository</name>
-      <url>http://localhost:8081/artifactory/maven-challenge</url>
+      <url>http://172.17.0.2:8081/artifactory/maven-challenge</url>
       <layout>default</layout>
       <releases>
         <updatePolicy>never</updatePolicy>
@@ -26,7 +26,7 @@
     <pluginRepository>
       <id>jboss-enterprise-repository-group</id>
       <name>Red Hat JBoss Enterprise Maven Repository</name>
-      <url>http://localhost:8081/artifactory/maven-challenge</url>
+      <url>http://172.17.0.2:8081/artifactory/maven-challenge</url>
       <layout>default</layout>
       <releases>
         <updatePolicy>never</updatePolicy>
@@ -37,6 +37,13 @@
     </pluginRepository>
   </pluginRepositories>
   <dependencies>
+    <dependency>
+      <groupId>com.redhat.ba</groupId>
+      <artifactId>ba-platform-bom</artifactId>
+      <version>7.7.0.redhat-00002</version>
+      <type>pom</type>
+      <scope>import</scope>
+    </dependency>
     <dependency>
       <groupId>org.kie</groupId>
       <artifactId>kie-api</artifactId>
@@ -135,7 +142,7 @@
   <distributionManagement>
     <repository>
         <id>my-repo</id>
-        <url>http://localhost:8081/artifactory/maven-challenge</url>
+        <url>http://172.17.0.2:8081/artifactory/maven-challenge</url>
         <layout>default</layout>
     </repository>
 </distributionManagement>
