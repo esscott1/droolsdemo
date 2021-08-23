@@ -6,12 +6,23 @@ package com.myspace.helloworld;
 
 public class junk implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public junk() {
-    }
+	private java.lang.String name;
 
+	public junk() {
+	}
 
+	public java.lang.String getName() {
+		return this.name;
+	}
 
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	public junk(java.lang.String name) {
+		this.name = name;
+	}
 
 }
