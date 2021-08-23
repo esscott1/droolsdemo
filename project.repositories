@@ -12,7 +12,7 @@
       <include>true</include>
       <metadata>
         <id>local</id>
-        <url>http://172.17.0.2:8081/artifactory/maven-challenge</url>
+        <url>/home/jboss/.m2/repository</url>
         <source>LOCAL</source>
       </metadata>
     </repository>
