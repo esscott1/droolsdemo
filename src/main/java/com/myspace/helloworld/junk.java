@@ -10,17 +10,9 @@ public class junk implements java.io.Serializable {
 
 	private java.lang.String name;
 
-	private java.lang.String phone;
-
 	private java.lang.String address1;
 
 	private java.lang.String city;
-
-	private java.lang.String state;
-
-	private java.lang.String zip;
-
-	private java.lang.String gender;
 
 	public junk() {
 	}
@@ -31,14 +23,6 @@ public class junk implements java.io.Serializable {
 
 	public void setName(java.lang.String name) {
 		this.name = name;
-	}
-
-	public java.lang.String getPhone() {
-		return this.phone;
-	}
-
-	public void setPhone(java.lang.String phone) {
-		this.phone = phone;
 	}
 
 	public java.lang.String getAddress1() {
@@ -57,41 +41,11 @@ public class junk implements java.io.Serializable {
 		this.city = city;
 	}
 
-	public java.lang.String getState() {
-		return this.state;
-	}
-
-	public void setState(java.lang.String state) {
-		this.state = state;
-	}
-
-	public java.lang.String getZip() {
-		return this.zip;
-	}
-
-	public void setZip(java.lang.String zip) {
-		this.zip = zip;
-	}
-
-	public java.lang.String getGender() {
-		return this.gender;
-	}
-
-	public void setGender(java.lang.String gender) {
-		this.gender = gender;
-	}
-
-	public junk(java.lang.String name, java.lang.String phone,
-			java.lang.String address1, java.lang.String city,
-			java.lang.String state, java.lang.String zip,
-			java.lang.String gender) {
+	public junk(java.lang.String name, java.lang.String address1,
+			java.lang.String city) {
 		this.name = name;
-		this.phone = phone;
 		this.address1 = address1;
 		this.city = city;
-		this.state = state;
-		this.zip = zip;
-		this.gender = gender;
 	}
 
 }
