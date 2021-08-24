@@ -16,6 +16,8 @@ public class junk implements java.io.Serializable {
 
 	private java.lang.String city;
 
+	private java.lang.String state;
+
 	public junk() {
 	}
 
@@ -51,12 +53,21 @@ public class junk implements java.io.Serializable {
 		this.city = city;
 	}
 
+	public java.lang.String getState() {
+		return this.state;
+	}
+
+	public void setState(java.lang.String state) {
+		this.state = state;
+	}
+
 	public junk(java.lang.String name, java.lang.String phone,
-			java.lang.String address1, java.lang.String city) {
+			java.lang.String address1, java.lang.String city, java.lang.String state) {
 		this.name = name;
 		this.phone = phone;
 		this.address1 = address1;
 		this.city = city;
+		this.state = state;
 	}
 
 }
