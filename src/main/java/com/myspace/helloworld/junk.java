@@ -14,6 +14,8 @@ public class junk implements java.io.Serializable {
 
 	private java.lang.String address1;
 
+	private java.lang.String city;
+
 	public junk() {
 	}
 
@@ -41,11 +43,20 @@ public class junk implements java.io.Serializable {
 		this.address1 = address1;
 	}
 
+	public java.lang.String getCity() {
+		return this.city;
+	}
+
+	public void setCity(java.lang.String city) {
+		this.city = city;
+	}
+
 	public junk(java.lang.String name, java.lang.String phone,
-			java.lang.String address1) {
+			java.lang.String address1, java.lang.String city) {
 		this.name = name;
 		this.phone = phone;
 		this.address1 = address1;
+		this.city = city;
 	}
 
 }
