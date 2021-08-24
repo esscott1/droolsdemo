@@ -10,6 +10,8 @@ public class junk implements java.io.Serializable {
 
 	private java.lang.String name;
 
+	private java.lang.String phone;
+
 	public junk() {
 	}
 
@@ -21,8 +23,17 @@ public class junk implements java.io.Serializable {
 		this.name = name;
 	}
 
-	public junk(java.lang.String name) {
+	public java.lang.String getPhone() {
+		return this.phone;
+	}
+
+	public void setPhone(java.lang.String phone) {
+		this.phone = phone;
+	}
+
+	public junk(java.lang.String name, java.lang.String phone) {
 		this.name = name;
+		this.phone = phone;
 	}
 
 }
