@@ -20,6 +20,8 @@ public class junk implements java.io.Serializable {
 
 	private java.lang.String zip;
 
+	private java.lang.String gender;
+
 	public junk() {
 	}
 
@@ -71,15 +73,25 @@ public class junk implements java.io.Serializable {
 		this.zip = zip;
 	}
 
+	public java.lang.String getGender() {
+		return this.gender;
+	}
+
+	public void setGender(java.lang.String gender) {
+		this.gender = gender;
+	}
+
 	public junk(java.lang.String name, java.lang.String phone,
 			java.lang.String address1, java.lang.String city,
-			java.lang.String state, java.lang.String zip) {
+			java.lang.String state, java.lang.String zip,
+			java.lang.String gender) {
 		this.name = name;
 		this.phone = phone;
 		this.address1 = address1;
 		this.city = city;
 		this.state = state;
 		this.zip = zip;
+		this.gender = gender;
 	}
 
 }
