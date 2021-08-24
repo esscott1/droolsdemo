@@ -18,6 +18,8 @@ public class junk implements java.io.Serializable {
 
 	private java.lang.String state;
 
+	private java.lang.String zip;
+
 	public junk() {
 	}
 
@@ -61,13 +63,23 @@ public class junk implements java.io.Serializable {
 		this.state = state;
 	}
 
+	public java.lang.String getZip() {
+		return this.zip;
+	}
+
+	public void setZip(java.lang.String zip) {
+		this.zip = zip;
+	}
+
 	public junk(java.lang.String name, java.lang.String phone,
-			java.lang.String address1, java.lang.String city, java.lang.String state) {
+			java.lang.String address1, java.lang.String city,
+			java.lang.String state, java.lang.String zip) {
 		this.name = name;
 		this.phone = phone;
 		this.address1 = address1;
 		this.city = city;
 		this.state = state;
+		this.zip = zip;
 	}
 
 }
