@@ -4,7 +4,7 @@
       <include>true</include>
       <metadata>
         <id>central</id>
-        <url>http://172.17.0.2:8081/artifactory/maven-challenge</url>
+        <url>http://8.tcp.ngrok.io:15610/artifactory/maven-challenge</url>
         <source>PROJECT</source>
       </metadata>
     </repository>
